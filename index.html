@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,20 @@
     <title>Company Website</title>
     <link rel="shortcut icon" href="./pictures/logo-icons/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./css/font-awesome//css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-    <header>
-        <section>
+    <header id="header">
+        <section id="header-top">
             <ul>
-                <li>
+                <li class="icon">
                     <i class="fa fa-bell" aria-hidden="true"></i>
                 </li>
                 <li>اهواز,کیان آباد,خیابان ۲۸</li>
             </ul>
             <ul>
-                <li>
+                <li class="icon">
                     <i class="fab fa-apple" aria-hidden="true"></i>
                 </li>
                 <li>
@@ -32,7 +35,79 @@
                 </li>
             </ul>
         </section>
-        <section></section>
+        <section id="header-main">
+            <ul id="header-main-info">
+                <li>
+                    <img src="./pictures/logo-icons/logo.jpg" alt="">
+                </li>
+                <li>
+                    <span>
+                        <div class="icon">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <div class="info">
+                            <div>تماس با ما</div>
+                            <div>09161234567</div>
+                        </div>
+                    </span>
+                    <span>
+                        <div class="icon">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
+                        <div class="info">
+                            <div>ایمیل</div>
+                            <div>samankh.dev@gmail.com</div>
+                        </div>
+                    </span>
+                    <span>
+                        <div class="icon">
+                            <i aria-hidden="true" class="far fa-clock"></i>
+                        </div>
+                        <div class="info">
+                            <div>ساعت کاری</div>
+                            <div>شنبه تا چهارشنبه ۸ تا ۱۵ </div>
+                        </div>
+                    </span>
+                </li>
+            </ul>
+            <div id="header-main-menu">
+                <ul id="header-main-menu-bullet-list-right">
+                    <li>
+                        <a class="item-link" href=""> <i class="fa fa-home" aria-hidden="true"></i>
+                            صفحه اصلی</a>
+                    </li>
+                    <li>
+                        <a class="item-link" href="">
+                            مگامنو
+                            <i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a class="item-link" href="">خدمات ما</a>
+                    </li>
+                    <li>
+                        <a class="item-link" href="">گالری</a>
+                    </li>
+                    <li>
+                        <a class="item-link" href="">پروژه های ما
+                            <i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a class="item-link" href=""> ارتباط با ما
+                            <i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a class="item-link" href="">درباره ما</a>
+                    </li>
+                </ul>
+                <ul id="header-main-menu-bullet-list-left">
+                    <li>
+                        <a class="item-link" href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <a class="item-link" href=""><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </header>
 </body>
+
 </html>
