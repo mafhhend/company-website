@@ -101,12 +101,12 @@ li {
 }
 @media only screen and (min-width: 1200px) {
   #header-main-info {
-    display: none;
+    display: flex;
   }
 }
 @media only screen and (min-width: 1850px) {
   #header-main-info {
-    display: none;
+    display: flex;
   }
 }
 #header-main-info li:first-child {

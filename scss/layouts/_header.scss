@@ -61,10 +61,10 @@
         display: none;
       }
       @include mediaQuery($breakpoint-xl) {
-        display: none;
+        display: flex;
       }
       @include mediaQuery($breakpoint-xxl) {
-        display: none;
+        display: flex;
       }
 
       li:first-child {
