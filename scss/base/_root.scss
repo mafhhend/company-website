@@ -1,5 +1,6 @@
 body{
     direction: rtl;
+    font-family: sans-serif !important;
 }
 *{
     box-sizing: border-box;
@@ -8,4 +9,10 @@ body{
 }
 li{
     list-style: none;
+}
+.d-flex{
+    display: flex;
+}
+.d-none{
+    display: none;
 }
