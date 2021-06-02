@@ -1,0 +1,28 @@
+@use "./breakpoints" as *;
+@mixin mediaQuery($breakpoint) {
+  @if ($breakpoint==$breakpoint-xs) {
+    @media only screen and (max-width: $breakpoint-xs) {
+      @content;
+    }
+  } @else if ($breakpoint==$breakpoint-sm) {
+    @media only screen and (min-width: $breakpoint-sm) {
+      @content;
+    }
+  } @else if ($breakpoint==$breakpoint-md) {
+    @media only screen and (min-width: $breakpoint-md) {
+      @content;
+    }
+  } @else if ($breakpoint==$breakpoint-lg) {
+    @media only screen and (min-width: $breakpoint-lg) {
+      @content;
+    }
+  } @else if ($breakpoint==$breakpoint-xl) {
+    @media only screen and (min-width: $breakpoint-xl) {
+      @content;
+    }
+  } @else if ($breakpoint==$breakpoint-xxl) {
+    @media only screen and (min-width: $breakpoint-xxl) {
+      @content;
+    }
+  }
+}

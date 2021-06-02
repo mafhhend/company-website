@@ -1,0 +1,97 @@
+@use "../base" as *;
+
+@include mediaQuery($breakpoint-xs) {
+  .toggle-main-menu-right {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .toggle-main-menu-right li a i {
+    display: none !important;
+  }
+  .toggle-main-menu-right ul li {
+    display: none !important;
+  }
+}
+@include mediaQuery($breakpoint-sm) {
+  .toggle-main-menu-right {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .toggle-main-menu-right li a i {
+    display: none !important;
+  }
+  .toggle-main-menu-right ul li {
+    display: none !important;
+  }
+}
+
+@include mediaQuery($breakpoint-md) {
+  .toggle-main-menu-right {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .toggle-main-menu-right li a i {
+    display: none !important;
+  }
+  .toggle-main-menu-right ul li {
+    display: none !important;
+  }
+}
+@include mediaQuery($breakpoint-lg) {
+  .toggle-main-menu-right {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .toggle-main-menu-right li a i {
+    display: none !important;
+  }
+  .toggle-main-menu-right ul li {
+    display: none !important;
+  }
+}
+@include mediaQuery($breakpoint-xl) {
+  .toggle-main-menu-right {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .toggle-main-menu-right li a i {
+    display: none !important;
+  }
+  .toggle-main-menu-right ul li {
+    display: none !important;
+  }
+}
+// Next Step
+/* @include mediaQuery($breakpoint-xxl) {
+  #header-main-menu {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+  }
+  #toggle-main-menu-right {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+  }
+  #toggle-main-menu-right li a {
+    a {
+        display: flex;
+      i {
+        display: flex !important;
+        background-color: red;
+        color: blue  !important;
+      }
+    }
+  }
+  #toggle-main-menu-right ul li {
+    display: flex !important;
+  }
+
+  #header-main-menu-bullet-list-right {
+    display: flex !important;
+  }
+  #header-main-menu-bullet-list-left {
+    display: flex !important;
+  }
+}
+ */
