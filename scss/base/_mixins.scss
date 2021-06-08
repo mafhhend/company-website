@@ -1,4 +1,12 @@
 @use "./breakpoints" as *;
+@mixin flex-center($direction:row) {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+  @content;
+}
 @mixin mediaQuery($breakpoint) {
   @if ($breakpoint==$breakpoint-xs) {
     @media only screen and (max-width: $breakpoint-xs) {

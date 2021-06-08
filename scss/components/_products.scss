@@ -1,0 +1,45 @@
+@use "../base" as *;
+.products {
+    margin-top: 10px;
+  width: 100%;
+  @include flex-center(column);
+  &-container {
+    background-color: $white;
+    width: 75%;
+    padding: 10px;
+    border-radius: 4px;
+    &-head {
+      padding: 20px;
+      font-size: $big-font-size;
+      text-align: center;
+      @include flex-center(column);
+      &-line {
+        border: 1px solid $orange;
+        width: 10%;
+        margin: 10px 0 10px 0;
+      }
+    }
+    &-list {
+      @include flex-center(row) {
+        justify-content: space-between;
+      }
+      text-align: center;
+      padding: 20px;
+      &-item{
+          width: 20%;
+          @include flex-center(column);
+          margin-right: 5px;
+          &-icon{
+            width: 100%;
+            height: 100%;
+              img{
+                  width: 100%;
+                  height:250px;
+                  border-radius: 40px;
+                object-fit: cover;
+              }
+          }
+      }
+    }
+  }
+}

@@ -1,9 +1,11 @@
+@import "http://cdn.font-store.ir/yekan.css";
 html {
   font-size: 100%;
 }
 
 body {
   direction: rtl;
+  background-color: #ccc;
 }
 
 * {
@@ -421,6 +423,145 @@ li {
   text-decoration: none;
   color: #333333;
   padding: 10px;
+}
+
+#slogan {
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+}
+#slogan-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  height: 100;
+  background: #396afc;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradientto right, #2948ff, #396afc;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradientto right, #2948ff, #396afc;
+  border-radius: 4px;
+}
+#slogan-item-icon i {
+  font-size: 3rem;
+  color: #fff;
+}
+#slogan-item p {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 1.3rem;
+}
+
+.features {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.features-container {
+  background-color: #fff;
+  width: 75%;
+  padding: 10px;
+  border-radius: 4px;
+}
+.features-container-head {
+  padding: 20px;
+  font-size: 1.3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.features-container-head-line {
+  border: 1px solid #fbc80e;
+  width: 10%;
+  margin: 10px 0 10px 0;
+}
+.features-container-head-description {
+  color: #333333;
+}
+.features-container-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+  text-align: center;
+}
+.features-container-list-item {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.features-container-list-item-icon {
+  width: 10rem;
+}
+.features-container-list-item-icon img {
+  width: 100%;
+}
+
+.products {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.products-container {
+  background-color: #fff;
+  width: 75%;
+  padding: 10px;
+  border-radius: 4px;
+}
+.products-container-head {
+  padding: 20px;
+  font-size: 1.3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.products-container-head-line {
+  border: 1px solid #fbc80e;
+  width: 10%;
+  margin: 10px 0 10px 0;
+}
+.products-container-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+}
+.products-container-list-item {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 5px;
+}
+.products-container-list-item-icon {
+  width: 100%;
+  height: 100%;
+}
+.products-container-list-item-icon img {
+  width: 100%;
+  height: 250px;
+  border-radius: 40px;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 480px) {
