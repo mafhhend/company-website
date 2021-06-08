@@ -403,7 +403,7 @@ li {
   bottom: 50px;
 }
 #header-slider-navigation ul li {
-  padding: 20px;
+  margin-right: 30px;
 }
 #header-slider-navigation ul li i {
   color: #fff;
