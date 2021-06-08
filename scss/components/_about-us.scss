@@ -1,0 +1,58 @@
+@use "../base" as *;
+.about-us {
+  width: 100%;
+  margin-top: 10px;
+  @include flex-center();
+  padding: 10px;
+
+  &-container {
+    background-color: $color-white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    @include flex-center(column) {
+      text-align: center;
+    }
+    &-head {
+      padding: 20px;
+      font-size: $big-font-size;
+      text-align: center;
+      @include flex-center(column);
+      &-line {
+        border: 1px solid $color-orange;
+        width: 10%;
+        margin: 10px 0 10px 0;
+      }
+      &-description {
+        color: $color-black-50;
+      }
+    }
+    &-list {
+      @include flex-center(row) {
+        justify-content: space-evenly;
+      }
+      padding: 20px;
+      text-align: center;
+      &-item {
+        width: 20%;
+        padding: 20px;
+        border-radius: 4px;
+        transition: background 0.5s;
+        color: $color-black-50;
+        img {
+          width: 100%;
+          border-radius: 4px;
+        }
+        &-network-social {
+          @include flex-center(row) {
+            justify-content: space-evenly;
+          }
+        }
+        &:hover {
+          background-color: $color-blue;
+          color: white;
+        }
+      }
+    }
+  }
+}
