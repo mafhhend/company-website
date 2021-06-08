@@ -57,9 +57,14 @@ li {
   color: #fbc80e;
 }
 #header-top ul:nth-child(2) li {
-  padding: 8px;
   border-radius: 100%;
   background-color: #fbc80e;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 #header-main {
   position: absolute;

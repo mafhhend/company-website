@@ -27,9 +27,11 @@
       }
       &:nth-child(2) {
         li {
-          padding: 8px;
           border-radius: 100%;
           background-color: $color-orange;
+          width: 25px;
+          height: 25px;
+          @include flex-center(row);
         }
       }
     }
