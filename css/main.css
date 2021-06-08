@@ -34,8 +34,10 @@ li {
   padding: 15px;
   background-color: #f2f2f2;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
 @media only screen and (max-width: 480px) {
   #header-top {
@@ -74,14 +76,16 @@ li {
   width: 100%;
   margin-top: 30px;
   display: flex;
-  flex-flow: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 #header-main-info {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
   width: 80%;
 }
 @media only screen and (max-width: 480px) {
@@ -120,8 +124,10 @@ li {
 #header-main-info li:nth-child(2) {
   width: 60%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
 #header-main-info li:nth-child(2) span {
   display: flex;
@@ -145,8 +151,10 @@ li {
   background-color: #fff;
   border-radius: 60px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 20px;
 }
 @media only screen and (max-width: 480px) {
@@ -272,9 +280,10 @@ li {
 }
 #header-main-menu-bullet-list-right li[class*=mega-menu] ul li {
   display: flex;
-  flex-direction: column !important;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  flex-direction: column !important;
   flex-grow: 1;
 }
 #header-main-menu-bullet-list-right li[class*=mega-menu] ul li h3 {
@@ -372,7 +381,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column;
+  flex-direction: column;
 }
 #header-slider-slides .item .info h2 {
   font-weight: bold;
