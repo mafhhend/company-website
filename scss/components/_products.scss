@@ -4,7 +4,7 @@
   width: 100%;
   @include flex-center(column);
   &-container {
-    background-color: $white;
+    background-color: $color-white;
     width: 75%;
     padding: 10px;
     border-radius: 4px;
@@ -14,7 +14,7 @@
       text-align: center;
       @include flex-center(column);
       &-line {
-        border: 1px solid $orange;
+        border: 1px solid $color-orange;
         width: 10%;
         margin: 10px 0 10px 0;
       }

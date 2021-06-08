@@ -1,10 +1,11 @@
+@use "./colors" as *;
 @import "http://cdn.font-store.ir/yekan.css";
 html{
     font-size: 100%;
 }
 body{
     direction: rtl;
-    background-color: #ccc;
+    background-color:$bg-color-body ;
 }
 *{
     box-sizing: border-box;

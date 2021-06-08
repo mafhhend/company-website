@@ -9,18 +9,18 @@
     width: 100%;
     height: 100;
     background: #396afc; /* fallback for old browsers */
-    background: -webkit-linear-gradient#{$slogan-item-background-color}; /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient#{$slogan-item-background-color} /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background: -webkit-linear-gradient#{$bg-color-slogan-item}; /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient#{$bg-color-slogan-item} /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
 
     border-radius: 4px;
     &-icon {
       i {
         font-size: $big-icon-size;
-        color: $white;
+        color: $color-white;
       }
     }
     p {
-      color: $white;
+      color: $color-white;
       margin-top: 20px;
       font-size: $big-font-size;
     }
