@@ -1,4 +1,5 @@
 @use "./colors" as *;
+@use "./types" as *;
 @import "http://cdn.font-store.ir/yekan.css";
 html{
     font-size: 100%;
@@ -21,4 +22,14 @@ li{
 }
 .d-none{
     display: none;
+}
+@for $i from 1 to 5 {
+    .w-#{25 * $i}{
+        width: 25% * $i !important;
+    }
+}
+@each $align in $text-align {
+    .text-#{$align}{
+        text-align: $align;
+    }
 }

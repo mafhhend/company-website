@@ -34,3 +34,9 @@
     }
   }
 }
+@mixin default-link($color:color,$font-weight:small){
+text-decoration: none;
+color: $color;
+font-weight: $font-weight;
+@content;
+}

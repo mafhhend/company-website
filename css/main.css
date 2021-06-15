@@ -27,6 +27,34 @@ li {
   display: none;
 }
 
+.w-25 {
+  width: 25% !important;
+}
+
+.w-50 {
+  width: 50% !important;
+}
+
+.w-75 {
+  width: 75% !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
 #header {
   position: relative;
 }
@@ -643,6 +671,57 @@ li {
 .about-us-container-list-item:hover {
   background-color: #1066d6;
   color: white;
+}
+
+footer ul:first-child {
+  width: 100%;
+  padding: 20px;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  align-items: initial;
+  color: #fff;
+}
+footer ul:first-child h3 {
+  font-weight: bold;
+}
+footer ul:first-child a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: thin;
+}
+footer ul:first-child a:hover {
+  background-color: #1066d6;
+  color: #fff;
+}
+footer ul:first-child div:nth-child(3) ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+footer ul:first-child div:nth-child(3) ul li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+footer ul:first-child div:nth-child(3) ul li i {
+  margin-left: 10px;
+}
+footer ul:nth-child(2) {
+  padding: 10px;
+  background-color: #101846;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 @media only screen and (max-width: 480px) {
