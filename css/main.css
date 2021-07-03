@@ -55,6 +55,27 @@ li {
   text-align: center;
 }
 
+.form-group {
+  width: 100%;
+  margin-top: 10px;
+}
+.form-group input, .form-group textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.form-group button {
+  background-color: blue;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+}
+
+.p-3 {
+  padding: 15px;
+}
+
 #header {
   position: relative;
 }
@@ -671,6 +692,41 @@ li {
 .about-us-container-list-item:hover {
   background-color: #1066d6;
   color: white;
+}
+
+#head {
+  background: url("/pictures/contact-us/contact-us.webp") no-repeat;
+  background-size: cover;
+  height: 400px;
+  padding-right: 200px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#head-title {
+  font-size: 45px;
+}
+
+#contact-us-form {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+#contact-us-form .form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#contact-us-form .form-group input, #contact-us-form .form-group textarea {
+  width: 100%;
 }
 
 footer ul:first-child {

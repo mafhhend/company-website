@@ -1,0 +1,29 @@
+@use "../base/mixins" as *;
+@use "../base/colors" as *;
+#head{
+    background: url("/pictures/contact-us/contact-us.webp") no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding-right: 200px;
+    color: $color-white;
+    @include flex-center(column){
+        align-items: flex-start;
+    }
+    &-title{
+        font-size: 45px;
+    }
+
+}
+#contact-us-form{
+    width: 100%;
+    padding: 20px;
+    @include flex-center(column);
+    background-color: $color-white;
+    .form-group{
+        @include flex-center(column);
+        input,textarea{
+            width: 100%;
+        }
+    }
+}
+
